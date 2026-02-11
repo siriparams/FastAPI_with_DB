@@ -1,3 +1,4 @@
+
 from fastapi import APIRouter, HTTPException
 from utils.ai_response import get_completion
 from schemas.ai_response_schemas import AIRequest, AIResponse
